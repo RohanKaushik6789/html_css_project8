@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sniglet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: linear-gradient(76deg, rgb(255, 255,255) 40%, rgb(225, 183, 244) 40%,rgb(254,196,238) 110%);
+    background-repeat: no-repeat;
+    height: 100vh;
+  
+}
+.nav-item{
+    display: inline;
+    margin: 20px;
+    color: rgb(31,40,115);
+    font-size: 16px;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+.nav-items{
+    flex-basis: 40%;
+    margin-top: 15px;
+    font-family: ubuntu;
+   
+}
+
+.signin-btn{
+    margin-right: 130px;
+    margin-top: 13px;
+    height: 30px;
+    width: 100px;
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 14px;
+    color: aliceblue;
+    background:linear-gradient( to right, rgb(150,92,242),rgb(255,138,220) );
+    border: none;
+    border-radius: 15px;
+}
+
+[alt="logo"]{
+    height: 40px;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+
+[alt="intro-img"]{
+     position: absolute;
+     width: 49%;
+     height: auto;
+     top: 10%;
+     right: 20%;    
+}
+
+.vector-dot{
+    position: absolute;
+    bottom: 11%;
+    left: 33.5%;
+}
+.vector-img
+{
+    position: absolute;
+    bottom: 0px;
+    left: 30%;
+}
+
+.left-section h1{
+    font-size: 80px;
+    font-family: ubuntu;
+    margin-left: 2%;
+    color: rgb(62,71,148);
+
+}
+.left-section h4{
+   width: 30%;
+   font-family: ubuntu;
+   margin-left: 2%;
+   line-height: 2.2;
+   opacity: 40%;
+}
+
+.left-section button{
+    width: 240px;
+    height: 12%;
+    font-size: 20px;
+    font-family: montserrat;
+    font-weight: bold;
+    color: aliceblue;
+    background:linear-gradient( to right, rgb(150,92,242),rgb(255,138,220) );
+    border: none;
+    border-radius: 25px;
+    margin-left: 2%;
+}
+
+.left-section{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 130px;
+}
+
+
+@media  (max-width: 1300px){
+    .nav-item{
+        display: inline;
+        margin: 10px;
+        color: rgb(31,40,115);
+        font-size: 12px;}
+
+        .left-section h1{
+            font-size: 50px;
+            font-family: ubuntu;
+            margin-left: 2%;
+            color: rgb(62,71,148);}
+
+
+}
