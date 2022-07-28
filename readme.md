@@ -13,3 +13,5 @@ wow feeling happy after doing this project because this project taught me alot..
 
 
 ![8th_Project](preview.png)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a1d230d3-a25b-4b17-891e-97eb1b313980/deploy-status)](https://rohankaushik8thproject.netlify.app/)
